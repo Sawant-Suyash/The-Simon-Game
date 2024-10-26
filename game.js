@@ -39,7 +39,7 @@ function gameSequence() {  //Function for main game logic
 }
 
 function btnSound(colour) {  //Function playing sound relevant to chosen colour/clicked button
-    var audio = new Audio("sounds/" + colour + ".mp3");
+    var audio = new Audio(colour + ".mp3");
     audio.play();
 }
 
